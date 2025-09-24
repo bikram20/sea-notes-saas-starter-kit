@@ -26,7 +26,7 @@ export const COLORS = {
 // External URLs
 export const URLS = {
   // Repository and Deployment
-  githubRepo: 'https://github.com/digitalocean/sea-notes-saas-starter-kit',
+  githubRepo: 'https://github.com/bikram20/sea-notes-saas-starter-kit.git',
   deployment: 'https://cloud.digitalocean.com/apps/new?repo=https://github.com/digitalocean/sea-notes-saas-starter-kit/tree/main',
   
   // DigitalOcean Services
@@ -86,7 +86,7 @@ export const DIMENSIONS = {
 // Terminal Commands
 export const TERMINAL = {
   commands: [
-    '$ git clone https://github.com/digitalocean/sea-notes-saas-starter-kit.git',
+    '$ git clone https://github.com/bikram20/sea-notes-saas-starter-kit.git',
     '$ cd sea-notes-saas-starter-kit', 
     '$ npm install',
     '$ npm run dev'
