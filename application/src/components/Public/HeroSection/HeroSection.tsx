@@ -46,30 +46,30 @@ const HeroSection = () => {
             >
               SeaNotes
             </Typography>
-            <Typography 
-              variant="h3" 
-              component="h2" 
-              fontWeight="bold" 
+            <Typography
+              variant="h3"
+              component="h2"
+              fontWeight="bold"
               color="primary.main"
-              sx={{ 
+              sx={{
                 textAlign: 'center',
                 width: '100%'
               }}
             >
-              Build Your SaaS Faster Than Ever
+              Your Thoughts, Beautifully Organized
             </Typography>
-            <Typography 
-              variant="h6" 
-              component="p" 
-              color="text.secondary" 
-              sx={{ 
-                maxWidth: DIMENSIONS.layout.maxContentWidth, 
+            <Typography
+              variant="h6"
+              component="p"
+              color="text.secondary"
+              sx={{
+                maxWidth: DIMENSIONS.layout.maxContentWidth,
                 mx: 'auto',
                 textAlign: 'center',
                 width: '100%'
               }}
             >
-              Launch your SaaS product in record time with our powerful, ready-to-use template. Packed with modern technologies and essential integrations.
+              Capture ideas, build knowledge, and stay productive with SeaNotes - the note-taking app that adapts to your workflow.
             </Typography>
             <Box component="nav" aria-label="Primary actions">
               <CTAButtons />

@@ -1,2 +1,7 @@
 .DS_Store
 .claude
+development-workflow.md
+
+# App Platform deployment spec (contains hardcoded secrets/config)
+appspec.yaml
+.env.prod

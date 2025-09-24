@@ -17,7 +17,7 @@
 	  "source=${localEnv:HOME}/.config/gh,target=/home/devcontainer/.config/gh,type=bind"
 	],
 	"remoteEnv": {
-	  "DIGITALOCEAN_API_TOKEN": "${localEnv:DIGITALOCEAN_API_TOKEN}",
+	  "DIGITALOCEAN_ACCESS_TOKEN": "${localEnv:DIGITALOCEAN_API_TOKEN}",
 	  "CLAUDE_CONFIG_DIR": "/home/devcontainer/.claude"
 	},
   
