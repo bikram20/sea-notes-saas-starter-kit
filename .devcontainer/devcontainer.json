@@ -1,0 +1,37 @@
+{
+	"name": "nextjs-devcontainer",
+	"dockerComposeFile": "../docker-compose.yml",
+	"service": "app",
+	"workspaceFolder": "/workspaces/app",
+  
+	"forwardPorts": [3000, 5432, 9000, 8900],
+	"portsAttributes": {
+	  "3000": { "label": "Next.js" },
+	  "5432": { "label": "Postgres" },
+	  "9000": { "label": "MinIO API" },
+	  "8900": { "label": "MinIO Console" }
+	},
+  
+	"mounts": [
+	  "source=${localEnv:HOME}/.claude,target=/home/devcontainer/.claude,type=bind",
+	  "source=${localEnv:HOME}/.config/gh,target=/home/devcontainer/.config/gh,type=bind"
+	],
+	"remoteEnv": {
+	  "DIGITALOCEAN_API_TOKEN": "${localEnv:DIGITALOCEAN_API_TOKEN}",
+	  "CLAUDE_CONFIG_DIR": "/home/devcontainer/.claude"
+	},
+  
+	"customizations": {
+	  "vscode": {
+		"extensions": [
+		  "dbaeumer.vscode-eslint",
+		  "esbenp.prettier-vscode",
+		  "ms-vscode.vscode-typescript-next",
+		  "bradlc.vscode-tailwindcss",
+		  "prisma.prisma",
+		  "mtxr.sqltools",
+		  "ms-azuretools.vscode-docker"
+		]
+	  }
+	}
+  }

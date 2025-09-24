@@ -38,6 +38,7 @@ SeaNotes is a Next.js 15 SaaS application with TypeScript, featuring user authen
 - **Migration Command**: `npx prisma migrate dev`
 - **Schema Location**: `prisma/schema.prisma`
 - **Local Development**: Use `docker compose up` to start PostgreSQL container
+- **DevContainer**: See `devcontainer.md` for running the application locally in a containerized development environment
 
 ## Code Style Preferences
 
