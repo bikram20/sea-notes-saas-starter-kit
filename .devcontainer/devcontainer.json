@@ -20,7 +20,6 @@
 	  "DIGITALOCEAN_ACCESS_TOKEN": "${localEnv:DIGITALOCEAN_API_TOKEN}",
 	  "CLAUDE_CONFIG_DIR": "/home/devcontainer/.claude"
 	},
-  
 	"customizations": {
 	  "vscode": {
 		"extensions": [
